@@ -57,6 +57,16 @@ fetch('https://jsonplaceholder.typicode.com/todos/1')
 <br>
 
 
+### 리스트안의 json
+https://jsonplaceholder.typicode.com/todos
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
 ### 버튼으로 데이터 요청하기 
 ```html
 <!DOCTYPE html>
