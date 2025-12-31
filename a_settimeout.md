@@ -14,31 +14,30 @@ setTimeout(  function () {
 <br>
 <br>
 
+
+### 실행순서 
+```javascript
+console.log('a');
+setTimeout( function () {
+    console.log( 'b' );
+},3000);
+console.log('c');
+```
+
+
+
+
+
+
 ### 2초간격으로 div만들며 텍스트 추가하기 
-```html
+```javascript
 
-<!DOCTYPE html>
-<html lang="ko">
-<body>
-    <div class="container" id="container"></div>
-
-    <script>
-        const texts = ['hello', 'my name is', 'young-su'];
-        const container = document.getElementById('container');
-
-        texts.forEach((text, index) => {
-            setTimeout(() => {
-                const div = document.createElement('div');
-                div.className = 'text-item';
-                div.textContent = text;
-                container.appendChild(div);
-            }, index * 2000); // 2초 간격 (2000ms)
-        });
-    </script>
-</body>
-</html>
-
-
-
+for(let i=0; i < texts.length; i++) {
+     setTimeout(function()  {
+           const d = document.createElement('div');
+           d.innerText = texts[i];
+           document.body.appendChild(d);
+     }, i*2000);
+}
 
 ```
