@@ -1,4 +1,23 @@
 ## 다른서버의 데이터 요청하기 
+
+```javascript
+// about:blank 를 실행하고 아래코드를 복사 붙여넣기 합니다.
+fetch('https://jsonplaceholder.typicode.com/todos/1');
+
+```
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+```
+
+
+
+
 ```javascript
 
 fetch('https://jsonplaceholder.typicode.com/todos/1')
