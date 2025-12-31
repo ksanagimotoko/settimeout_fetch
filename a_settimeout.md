@@ -23,7 +23,11 @@ setTimeout( function () {
 },3000);
 console.log('c');
 ```
-
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 
@@ -31,6 +35,7 @@ console.log('c');
 
 ### 2초간격으로 div만들며 텍스트 추가하기 
 ```javascript
+const texts = ['hello', 'my name is', 'young-su'];
 
 for(let i=0; i < texts.length; i++) {
      setTimeout(function()  {
